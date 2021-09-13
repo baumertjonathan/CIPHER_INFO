@@ -1,4 +1,4 @@
-## Autokey Cipher
+# Autokey Cipher
 
 The autokey cipher is a type of substitution cipher that uses the [tabula recta](https://en.wikipedia.org/wiki/Tabula_recta)
 
@@ -34,15 +34,15 @@ The autokey cipher is a type of substitution cipher that uses the [tabula recta]
 This cipher functions similarly to the vigenere cipher except
 when the key is shorter than the text the text is appended to the key. 
 
-# Encrypting
+## Encrypting
 
 To encrypt the text is first appended onto the key if the key is shorter than the text. Then each letter is is paired with the letter in the same position in the key. Then find the intersection of the two letters in the tabula, one headed on the row the other heading the column. 
 
-# Decrypting
+## Decrypting
 
 To dectypt the text you begin by pairing the first letter of the text with the first letter of the key. The column or row headed by the letter key is found then that row or column is searched for the encrypted letter. then theat is followed to the end of that row or column (opposite of what was used). Then that resulting character is appended onto the key. 
 
-# Examples
+## Examples
 
 If we were to encipher "Hello There" with the key "secret" the following process would be followed. First you would append the text on the key untill they are the same length like so:
 

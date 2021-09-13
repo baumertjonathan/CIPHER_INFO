@@ -6,7 +6,6 @@ The affine cipher takes two numbers as keys (*a* and *b*) *a* must be coprime wi
 
 ## Encrypting
 
-To encrypt the each of the letters are mapped as such 
 
 |letter|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|
 |------|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
